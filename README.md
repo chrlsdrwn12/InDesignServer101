@@ -10,10 +10,10 @@ InDesign Server Step-By-Step for Beginners like me:
 
 3) Create a new .jsx file somewhere in your local drive then open it and type:
 
-<code>var myDocument = app.documents.add();</code>
-<code>var myFile = new File('c:/Kratos/test.indd');</code>
-<code>myDocument.save(myFile);</code>
-<code>myDocument.close();</code>
+<p><code>var myDocument = app.documents.add();</code></p>
+<p><code>var myFile = new File('c:/Kratos/test.indd');</code></p>
+<p><code>myDocument.save(myFile);</code></p>
+<p><code>myDocument.close();</code></p>
 
 Save it somewhere easy to remember.
 
