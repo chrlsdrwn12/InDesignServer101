@@ -13,4 +13,4 @@ InDesign Server Step-By-Step for Beginners like me:
 <code>myDocument.close();</code><br><br>Save it somewhere easy to remember.
 
 4) Go to the folder again where you install the indesignserver and launch another DOS box again and type:<br>
-<code>sampleclient -host 8400 "c:/Kratos/indesignserver101.jsx"</code><br><br>Check if the file test.indd was created on c:/Kratos/
+<code>sampleclient -host localhost:8400 "c:/Kratos/indesignserver101.jsx"</code><br><br>Check if the file test.indd was created on c:/Kratos/
