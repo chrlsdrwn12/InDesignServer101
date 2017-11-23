@@ -9,16 +9,14 @@ InDesign Server Step-By-Step for Beginners like me:
 *8400 - can be any port number as long as it is open
 
 3) Create a new .jsx file somewhere in your local drive then open it and type:
-var myDocument = app.documents.add();
-var myFile = new File('c:/Kratos/test.indd');
-myDocument.save(myFile);
-myDocument.close();
-
+<code>var myDocument = app.documents.add();<br />
+var myFile = new File('c:/Kratos/test.indd');<br />
+myDocument.save(myFile);<br />
+myDocument.close();</code>
 
 Save it somewhere easy to remember.
 
 4) Go to the folder again where you install the indesignserver and launch another DOS box again and type:
---------------------------------------------
-sampleclient -host 8400 "c:/Kratos/indesignserver101.jsx"
+<code>sampleclient -host 8400 "c:/Kratos/indesignserver101.jsx"</code>
 
-5) Check if the file test.indd was created on c:/Kratos/
+Check if the file test.indd was created on c:/Kratos/
