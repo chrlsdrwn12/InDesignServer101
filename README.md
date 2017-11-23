@@ -9,6 +9,7 @@ InDesign Server Step-By-Step for Beginners like me:
 *8400 - can be any port number as long as it is open
 
 3) Create a new .jsx file somewhere in your local drive then open it and type:
+
 <code>var myDocument = app.documents.add();
 var myFile = new File('c:/Kratos/test.indd');
 myDocument.save(myFile);
